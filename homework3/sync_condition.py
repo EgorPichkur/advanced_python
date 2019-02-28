@@ -1,6 +1,7 @@
 """Homework 3: Thread Synchronization Using Conditions"""
 
-from threading import Condition, Thread
+from threading import Condition
+from threading import Thread
 
 
 def print_odd(cv):

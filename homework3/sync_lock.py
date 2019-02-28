@@ -1,6 +1,7 @@
 """Homework 3: Thread Synchronization Using Locks"""
 
-from threading import Lock, Thread
+from threading import Lock
+from threading import Thread
 
 
 class LockThread(Thread):

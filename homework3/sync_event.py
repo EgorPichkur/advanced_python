@@ -1,6 +1,7 @@
 """Homework 3: Thread Synchronization Using Events"""
 
-from threading import Event, Thread
+from threading import Event
+from threading import Thread
 
 
 class EventThread(Thread):

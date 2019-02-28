@@ -1,6 +1,7 @@
 """Homework 3: Thread Synchronization Using Semaphores"""
 
-from threading import Semaphore, Thread
+from threading import Semaphore
+from threading import Thread
 
 
 class SemaphoreThread(Thread):
