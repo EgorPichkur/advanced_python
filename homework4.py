@@ -1,7 +1,7 @@
 """Homework 4: Multiprocessing"""
 
-from multiprocessing import Process
 from multiprocessing import Lock
+from multiprocessing import Process
 
 
 class SyncedProcess(Process):
