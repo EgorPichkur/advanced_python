@@ -6,7 +6,8 @@ def get_files_list(url='http://ftp.mgts.by/test/'):
     """Creates a list of links
 
     This function creates a list of links to files
-    for downloading"""
+    for downloading
+    """
 
     url = 'http://ftp.mgts.by/test/'
     files = ("10Mb.txt", "50Mb.txt", "100Mb.txt")
