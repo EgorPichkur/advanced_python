@@ -1,10 +1,10 @@
 """Homework 5: Downloading multiple files using threads"""
+from get_files import get_files_list
 import os
+from queue import Queue
 import threading
 import time
 import urllib.request
-from get_files import get_files_list
-from queue import Queue
 
 
 class DownloadThread(threading.Thread):

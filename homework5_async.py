@@ -1,10 +1,10 @@
 """Homework 5: Downloading multiple files using async"""
-import asyncio
 import aiohttp
-import time
+import asyncio
+from get_files import get_files_list
 import os
 import sys
-from get_files import get_files_list
+import time
 
 
 async def get_url(url, path, session, sem_number):
